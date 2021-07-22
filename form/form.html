@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcu icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><strong>Complete the registration</strong></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="name" id="name" class="inputUser" required>
+                    <label for="name" class="labelInput">Complete Name</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="phone" id="phone" class="inputUser" required>
+                    <label for="phone" class="labelInput">Phone</label>
+                </div>
+                <br>
+                <p>Sex:</p>
+                <input type="radio" name="gender" value="female" id="female" required>
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" value="male" id="male" required>
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" value="Other" id="Other" required>
+                <label for="Other">Other</label>
+                <br><br>
+                <label for="date_birth"><b>Date of Birth:</b></label>
+                <input type="date" name="date_birth" id="date_birth" required>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="state" id="state" class="inputUser" required>
+                    <label for="state" class="labelInput">State</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="number" id="number" class="inputUser" required>
+                    <label for="number" class="labelInput">11 + 7</label>
+                </div>
+                <br><br>
+                <input type="submit" name="submite" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
